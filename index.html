@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточки пользователей</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Известные актеры</h1>
+        <div class="cards-wrapper">
+            <!-- Карточка Брюса Вилиса -->
+            <div class="card">
+                <div class="photo-wrapper">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Bruce_Willis_by_Gage_Skidmore.jpg/220px-Bruce_Willis_by_Gage_Skidmore.jpg" 
+                         alt="Брюс Вилис" class="photo">
+                </div>
+                <div class="card-content">
+                    <h2 class="full-name">Брюс Вилис</h2>
+                    <p class="email">bruce.willis@example.com</p>
+                    <p class="birth-date">Дата рождения: 19 марта 1955</p>
+                    <p class="city">Город: Идар-Оберштайн, Германия</p>
+                </div>
+            </div>
+
+            <!-- Карточка Сильвестра Сталоне -->
+            <div class="card">
+                <div class="photo-wrapper">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMsw8N7iLILdLjYyfHFDGmpsISvJ3l0Bh0GgXcMUc4kPjSXpf4kGSy1MPgIOkjQpw0Ssedr_ySL9ZjQ4xfFKsW65L8yil2E7cBVe6cbHsv&s=10" 
+                         alt="Сильвестр Сталоне" class="photo">
+                </div>
+                <div class="card-content">
+                    <h2 class="full-name">Сильвестр Сталоне</h2>
+                    <p class="email">sylvester.stallone@example.com</p>
+                    <p class="birth-date">Дата рождения: 6 июля 1946</p>
+                    <p class="city">Город: Нью-Йорк, США</p>
+                </div>
+            </div>
+
+            <!-- Карточка Арнольда Шварценеггера -->
+            <div class="card">
+                <div class="photo-wrapper">
+                    <img src="data:image/jpeg;base64,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" 
+                         alt="Арнольд Шварценеггер" class="photo">
+                </div>
+                <div class="card-content">
+                    <h2 class="full-name">Арнольд Шварценеггер</h2>
+                    <p class="email">arnold.schwarzenegger@example.com</p>
+                    <p class="birth-date">Дата рождения: 30 июля 1947</p>
+                    <p class="city">Город: Таль, Австрия</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
